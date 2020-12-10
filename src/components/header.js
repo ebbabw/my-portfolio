@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 
 
+
 export const Header = () => {
 
     return (
@@ -9,8 +10,6 @@ export const Header = () => {
         <HeaderContainer>
             
          <div>
-
-              <Title>HERE GOES NOTHING!!!</Title>
 
               <ul>
                   <li><p>Home<p></p></p></li>
@@ -28,16 +27,11 @@ export const Header = () => {
 }
 
 const HeaderContainer = styled.div`
+   position:absolute;
+   top. 0;
    width: 100%;
-   hight: 200px;
-   background-color: lightblue;
+   height: 50px;
+   background-color: rgba(202, 172, 174, 0.72);
    
 `
 
-const Title = styled.h1`
-   font-size: 20px;
-   width: 100%;
-   text-align: center;
-   height: 40px;
-   color: yellow;
-`

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Header } from '../components/header'
+import { Projects } from '../components/projects'
+import { Profile  } from '../components/profile'
 
 
 export const Home = () => {
@@ -9,7 +11,10 @@ return (
     <div>
             <Header /> 
 
-       <p>DO YOU WANT TO BELIVE IN YOURSELF</p>
+            <Profile />
+
+            <Projects /> 
+
 
    </div>
 
