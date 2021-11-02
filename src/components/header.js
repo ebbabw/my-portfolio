@@ -9,7 +9,7 @@ export const Header = () => {
 
         <HeaderContainer>
             
-         <div>
+         <HeaderWrapper>
 
               <ul>
                   <li><p>Home<p></p></p></li>
@@ -18,7 +18,7 @@ export const Header = () => {
 
               </ul>
             
-           </div>
+           </HeaderWrapper>
     
         </HeaderContainer>
        
@@ -27,6 +27,8 @@ export const Header = () => {
 }
 
 const HeaderContainer = styled.div`
+   display: flex;
+   justify-content: center;
    position:absolute;
    top. 0;
    width: 100%;
@@ -35,3 +37,16 @@ const HeaderContainer = styled.div`
    
 `
 
+const HeaderWrapper = styled.div`
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   font-size: 12px;
+   text-decoration: none;
+   position: absolute;
+   top. 0;
+   width: 80%;
+   height: 50px;
+   background-color: rgba(202, 172, 174, 0.72);
+   
+`
