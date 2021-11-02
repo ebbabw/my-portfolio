@@ -9,7 +9,7 @@ export const Profile = () => {
 
         <ContentContainer>
             <ImageContainer>
-            <img src="../assets/me2.jpg" alt="Me" />
+        
             </ImageContainer>
         </ContentContainer>
 
