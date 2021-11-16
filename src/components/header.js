@@ -1,52 +1,30 @@
 import React from 'react'
-import styled from 'styled-components/macro'
-
-
+import '../styling/navbar.css'
 
 export const Header = () => {
 
+  
+
     return (
 
-        <HeaderContainer>
-            
-         <HeaderWrapper>
+        <div class="navbar">
+            <div class="logo">EBW</div>
+            <div class="toggle-botton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
 
-              <ul>
-                  <li><p>Home<p></p></p></li>
-                  <li><p>work<p></p></p></li>
-                  <li><p>About<p></p></p></li>
-
-              </ul>
-            
-           </HeaderWrapper>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                </ul>
+            </div>   
     
-        </HeaderContainer>
-       
+      </div>
+  
     )
   
 }
-
-const HeaderContainer = styled.div`
-   display: flex;
-   justify-content: center;
-   position:absolute;
-   top. 0;
-   width: 100%;
-   height: 50px;
-   background-color: rgba(202, 172, 174, 0.72);
-   
-`
-
-const HeaderWrapper = styled.div`
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-   font-size: 12px;
-   text-decoration: none;
-   position: absolute;
-   top. 0;
-   width: 80%;
-   height: 50px;
-   background-color: rgba(202, 172, 174, 0.72);
-   
-`

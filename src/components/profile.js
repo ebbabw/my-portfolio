@@ -1,25 +1,34 @@
 import React from 'react'
-import styled from 'styled-components/macro'
+import '../styling/profile-style.css'
 
 export const Profile = () => {
 
     return (
 
-    <ProfileContainer>
+   <div class="profile-container">
+    
+    
+    <div class="content-container">
 
-        <ContentContainer>
-            <ImageContainer>
-        
-            </ImageContainer>
-        </ContentContainer>
+        <div class="title">
+        My name is Ebba Bergholtz-Widell</div>
+        <div class="text">
+        I’m a content creator, a coder, 
+        and a aspired designer. I’m a hard-working, 
+        curious, team player and strive to always 
+        develop my skills. I love cooking, painting, 
+        and the best combo of an active lifestyle 
+        and relaxation. 
+        </div>    
+        </div>
 
-        <ContentContainer>
-            <p>Profile info</p>
-        </ContentContainer>
+    <div class="content-container">
+    <img class="profile" src="/assets/profile.jpeg" alt="profile"/>
+    </div>
 
 
 
-    </ProfileContainer>
+    </div>
 
 
 )
@@ -27,31 +36,5 @@ export const Profile = () => {
 }
 
 
-const ProfileContainer = styled.div`
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 100px;
-   position: absolute;
-   width: 100%;
-   height: 600px;
-   background-color: lightblue;
-   
-`
 
 
-const ContentContainer = styled.div`
-   margin: 10px;
-   width: 250px;
-   height: 300px;
-   background-color: green; 
-`
-
-
-
-const ImageContainer= styled.img`
-
-    background-size cover
-   
-`
