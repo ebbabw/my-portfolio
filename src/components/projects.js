@@ -1,6 +1,6 @@
 import React from 'react'
-import styled from 'styled-components/macro'
 
+import '../styling/projects-style.css'
 
 
 
@@ -9,42 +9,19 @@ export const Projects = () => {
 
     return (
 
-        <IntroContainer> 
+        <div className="intro-container"> 
                
-           <ContentContainer><p>hej</p></ContentContainer>   
-           <ContentContainer><p>hej</p></ContentContainer>   
-           <ContentContainer><p>hej</p></ContentContainer>   
-           <ContentContainer><p>hej</p></ContentContainer>   
+           <div className="project"><p>hej</p></div>  
+           <div className="project"><p>hej</p></div>   
+           <div className="project"><p>hej</p></div>   
+           <div className="project"><p>hej</p></div>    
   
-        </IntroContainer>
+        </div>
        
     )
   
 }
 
-
-
-const IntroContainer = styled.div`
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 800px;
-   position: absolute;
-   width: 100%;
-   height: 300px;
-   background-color: lightblue;
-   
-`
-
-
-
-const ContentContainer = styled.div`
-   margin: 10px;
-   width: 200px;
-   height: 200px;
-   background-color: green; 
-`
 
 
 
