@@ -11,10 +11,18 @@ export const Projects = () => {
 
         <div className="intro-container"> 
                
-           <div className="project"><p>hej</p></div>  
-           <div className="project"><p>hej</p></div>   
-           <div className="project"><p>hej</p></div>   
-           <div className="project"><p>hej</p></div>    
+           <div className="project">
+               <p>Code</p>
+            </div>  
+            <div className="project">
+               <p>Graphic design</p>
+            </div>  
+            <div className="project">
+               <p>Photograf</p>
+            </div>  
+            <div className="project">
+               <p>about</p>
+            </div>    
   
         </div>
        
