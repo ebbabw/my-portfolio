@@ -9,8 +9,14 @@ export const Profile = () => {
     
     
     <div class="content-container">
+    <img class="profile" src="/assets/sketchme-c.png" alt="profile"/>
 
-        <div class="title">
+
+    
+        </div>
+
+    <div class="content-container">
+    <div class="title">
         My name is Ebba Bergholtz-Widell</div>
         <div class="text">
         I’m a content creator, a coder, 
@@ -20,10 +26,6 @@ export const Profile = () => {
         and the best combo of an active lifestyle 
         and relaxation. 
         </div>    
-        </div>
-
-    <div class="content-container">
-    <img class="profile" src="/assets/profile.jpeg" alt="profile"/>
     </div>
 
 

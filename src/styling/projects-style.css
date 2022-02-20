@@ -4,7 +4,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
-margin-top: 600px;
+margin-top: 650px;
 position: absolute;
 width: 100%;
 height: 500px;
@@ -45,8 +45,17 @@ background-color: rgb(124, 160, 124);
     font-size: 25px;
     font-weight: 700;
     color: #fff;
+    font-family: 'Alata', sans-serif;
 }
 
+.copy {
+    position: absolute;
+    font-size: 25px; 
+    width: 100%;
+    text-align: center;
+    top: 72%;
+    font-family: 'Alata', sans-serif;
+}
 
 
 @media (max-width: 600px) {
