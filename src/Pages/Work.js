@@ -9,9 +9,7 @@ export const Work = () => {
 return (
 
     <div>
-         
 
-         <div>Code</div>
 
 <Slideshow />
 
