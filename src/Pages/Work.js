@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Slideshow from 'components/image-slidehow-code'
+import { Header } from 'components/header'
+import { Slideshow }  from '../components/image-slidehow-code'
 
 
 
@@ -10,6 +11,7 @@ return (
 
     <div>
 
+<Header />
 
 <Slideshow />
 
