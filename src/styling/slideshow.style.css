@@ -1,0 +1,27 @@
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slider-wrapper {
+    width: 50%;
+}
+
+.carousel {
+    top: 30px;
+    text-align: center;
+}
+
+.carousel .thumb {
+    height: 50px;
+    width: 20px;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

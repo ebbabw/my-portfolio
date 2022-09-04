@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Header } from 'components/header'
-import { Slideshow }  from '../components/image-slidehow-code'
+import { Slideshow }  from '../components/image-slidehow'
 
 
 
