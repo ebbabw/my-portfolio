@@ -11,7 +11,9 @@ export const Home = () => {
 return (
 
     <div>
-          <Header /> 
+
+          
+     <Header /> 
     <Profile />
     <Projects /> 
 
